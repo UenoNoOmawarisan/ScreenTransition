@@ -10,7 +10,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * 一つの Activty ，一つの View で状態遷移する場合
+ * 一つの Activity ，一つの View で状態遷移する場合
  * Created by Ueno on 2019/10/ 10.
  */
 public class MainView extends View{
