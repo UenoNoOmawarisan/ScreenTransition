@@ -42,7 +42,7 @@ public class MainView extends View{
             p.setColor(Color. RED);
             canvas.drawARGB(255 , 255 , 255 , 0);
             canvas.drawRect(100 , 100 , 300 , 200 , p);
-        } else {  //それ以外の場合は， Log にエラー を吐き出す
+        }else {  //それ以外の場合は， Log にエラー を吐き出す
             Log. d (" error", "never come here");
         }
     }
@@ -58,7 +58,7 @@ public class MainView extends View{
                 state = SECOND;
             } else if (state == SECOND) { //状態２だったら状態１へ
                 state = FIRST;
-            } else { //それ以外だったらエラーを吐き出す
+            }else { //それ以外だったらエラーを吐き出す
                 Log.d("error", "never come here");
             }
         }
