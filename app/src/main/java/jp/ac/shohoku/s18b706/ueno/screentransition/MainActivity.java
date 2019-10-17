@@ -13,9 +13,9 @@ public class MainActivity extends Activity { //AppCompatActivity → Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_view);
         // ボタンを押したときにイベントを取得できるようにする
-        Button button1 =  findViewById(R.id.button1);
+        Button button1 =  (Button)findViewById(R.id.button1);
         button1.setOnClickListener(new OnClickListener(){
             @Override
             public void onClick(View v){
